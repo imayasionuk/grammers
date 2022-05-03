@@ -8,3 +8,5 @@ testbed.rs
 
 # scraped docs
 *.json
+
+.idea/

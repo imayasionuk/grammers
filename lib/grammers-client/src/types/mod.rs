@@ -27,6 +27,7 @@ pub mod photo_sizes;
 pub mod reply_markup;
 pub mod terms_of_service;
 pub mod update;
+pub mod message_update;
 
 pub use attributes::Attribute;
 pub use callback_query::CallbackQuery;
@@ -42,6 +43,7 @@ pub use login_token::LoginToken;
 pub(crate) use media::Uploaded;
 pub use media::{Media, Photo};
 pub use message::Message;
+pub use message_update::MessageDeletion;
 pub use participant::{Participant, Role};
 pub use password_token::PasswordToken;
 pub use permissions::{Permissions, Restrictions};
