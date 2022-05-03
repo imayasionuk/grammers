@@ -60,7 +60,7 @@ impl Update {
             tl::enums::Update::BotInlineQuery(query) => {
                 Some(Self::InlineQuery(InlineQuery::new(client, query, chats)))
             }
-            update => Some(Self::Raw(update)),
+            _ => None,
         }
     }
 }
